@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "mjml projects/test.mjml --output projects/test.html",
-    "watch": "mjml --watch projects/navbar.mjml --output projects/navbar.html",
+    "watch": "mjml --watch src/navbar.mjml --output dist/navbar.html",
     "version": "mjml -V"
   },
   "devDependencies": {
