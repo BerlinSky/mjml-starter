@@ -6,7 +6,10 @@
     "build": "lerna run build --parallel",
     "lint": "eslint .",
     "postinstall": "lerna bootstrap",
-    "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\""
+    "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\"",
+    "dev:build": "mjml projects/test.mjml --output projects/test.html",
+    "dev:watch": "mjml --watch projects/navbar.mjml --output projects/navbar.html",
+    "dev:version": "mjml -V"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -26,6 +29,10 @@
     "eslint-config-prettier": "^2.6.0",
     "eslint-plugin-import": "^2.7.0",
     "lerna": "^2.0.0",
+    "mjml": "4.0.3",
+    "mjml-cli": "4.0.3",
+    "mjml-link": "2.0.1",
+    "mjml-navbar": "4.0.3",
     "opn": "^5.1.0",
     "prettier": "^1.7.3",
     "rimraf": "^2.6.1"

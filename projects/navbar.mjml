@@ -1,0 +1,16 @@
+<mjml>
+  <mj-body>
+    <mj-container>
+      <mj-navbar background-color="#ef6451">
+        <mj-column width="20%">
+          <mj-image width="150px" src="https://mjml.io/assets/img/logo-white-small.png"></mj-image>
+        </mj-column>
+        <mj-column width="80%">
+          <mj-inline-links base-url="https://mjml.io" hamburger="hamburger" ico-color="#ffffff">
+            
+          </mj-inline-links>
+        </mj-column>
+      </mj-navbar>
+    </mj-container>
+  </mj-body>
+</mjml>
