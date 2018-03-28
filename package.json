@@ -2,7 +2,7 @@
   "name": "mjml-project-setup",
   "private": true,
   "scripts": {
-    "build": "mjml projects/test.mjml --output projects/test.html",
+    "build": "mjml src/test.mjml --output dist/test.html",
     "watch": "mjml --watch src/navbar.mjml --output dist/navbar.html",
     "version": "mjml -V"
   },
