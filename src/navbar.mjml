@@ -1,16 +1,17 @@
 <mjml>
   <mj-body>
-    <mj-container>
-      <mj-navbar background-color="#ef6451">
-        <mj-column width="20%">
-          <mj-image width="150px" src="https://mjml.io/assets/img/logo-white-small.png"></mj-image>
-        </mj-column>
-        <mj-column width="80%">
-          <mj-inline-links base-url="https://mjml.io" hamburger="hamburger" ico-color="#ffffff">
-            
-          </mj-inline-links>
-        </mj-column>
-      </mj-navbar>
-    </mj-container>
+    <mj-section background-color="#ef6451" full-width="full-width">
+      <mj-column width="20%">
+        <mj-image width="150px" src="https://mjml.io/assets/img/logo-white-small.png"></mj-image>
+      </mj-column>
+      <mj-column width="80%">
+        <mj-navbar base-url="https://mjml.io" hamburger="hamburger" ico-color="#ffffff">
+          <mj-navbar-link href="/gettings-started-onboard" color="#ffffff">Getting started</mj-navbar-link>
+          <mj-navbar-link href="/try-it-live" color="#ffffff">Try it live</mj-navbar-link>
+          <mj-navbar-link href="/templates" color="#ffffff">Templates</mj-navbar-link>
+          <mj-navbar-link href="/components" color="#ffffff">Components</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>

@@ -2,14 +2,14 @@
   "name": "mjml-project-setup",
   "private": true,
   "scripts": {
-    "build": "mjml src/test.mjml --output dist/test.html",
+    "migrate": "mjml -m src/navbar.mjml --output src/navbar2.mjml",
+    "build": "mjml src/navbar.mjml --output dist/navbar.html",
     "watch": "mjml --watch src/navbar.mjml --output dist/navbar.html",
     "version": "mjml -V"
   },
   "devDependencies": {
-    "mjml": "4.0.3",
+    "mjml": "4.0.0",
     "mjml-cli": "4.0.3",
-    "mjml-link": "2.0.1",
     "mjml-navbar": "4.0.3"
   }
 }
